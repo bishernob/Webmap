@@ -70,10 +70,7 @@ const LocationGrid = () => {
     });
     locations[index] = newLocation;
     setLocations(locations);
-    await putRequest(
-      `http://192.168.1.10:7147/api/Location/${newLocation.id}`,
-      newLocation
-    );
+    await putRequest(url / `${newLocation.id}`, newLocation);
     setIsEditFormOpen(false);
     getRequest(url);
   };
