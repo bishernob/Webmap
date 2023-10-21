@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  /* outline: 1px solid black; */
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url('./icons/360_F_616142053_gKBkSdbs1JvdeQTS4X2mK6gqbxavxMuu.jpeg');
+  background-size:cover; /* Adjust as needed */
+  background-position: center;
+  /* line-height: 1.6;
+  min-height: 100vh; */
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.header h2 {
+  font-size: 32px;
+  color: #bdbbc9;
+}

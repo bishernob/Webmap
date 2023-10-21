@@ -1,0 +1,133 @@
+﻿.container {
+  margin: 17px 23px;
+  display: flex;
+  height: 90vh;
+}
+
+.left {
+  flex: 0.5 1;
+  padding: 12px 12px;
+}
+
+.right {
+  flex: 0.5 1;
+
+  padding: 24px 12px;
+  border-radius: 20px;
+  background: #dcdcdc3b;
+
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: end;
+}
+
+.btn {
+  width: 130px;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 20px;
+
+  cursor: pointer;
+  background-color: #9c9aa7;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #eee3ff;
+  color: #656370;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+
+  font-size: 16px;
+}
+
+tr{
+  background-color: #b5aebf;
+}
+th,
+td {
+  border: 1px solid rgba(134, 132, 144, 0.858);
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #656370;
+  color: white;
+}
+
+.edit {
+  color: #656370;
+  cursor: pointer;
+}
+
+.edit:hover {
+  color: #656370;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-container {
+  position: relative;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 430px;
+}
+
+.close-button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  font-size: 16px;
+
+  cursor: pointer;
+
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-button:hover{
+  background-color: #656370;
+}
+
+.sort-icon {
+  margin-left: 3%;
+  margin-top: 3%;
+  width: 10px; /* Adjust the size as needed */
+  height: 20px; /* Adjust the size as needed */
+  fill: white; /* Change the color to white */
+}
+.clickable-row {
+  cursor: pointer;
+}
